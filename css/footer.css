@@ -1,0 +1,64 @@
+/*
+*=====================================
+*			footer
+*=====================================
+*/
+footer{
+	height: 150px;
+	background: #070504;
+	color: #ffff;
+	display: flex;
+	flex-wrap: wrap;
+
+	background-attachment: fixed;
+
+	box-sizing: border-box;
+}
+
+footer .info, footer .RedesSociales{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+footer .info{
+	text-align: justify;
+	display: block;
+	box-sizing: border-box;
+
+}
+footer .info span,.info p{
+	display: flex;
+	padding: 8px;
+	margin:5px;	
+}
+
+footer .RedesSociales span{
+	padding: 5px;
+}
+
+footer .info2{
+	width: 100%;
+	background: steelblue;
+	height: 40px;
+
+	display: flex;
+	align-items: center;
+	
+	box-sizing: border-box;
+}
+
+footer .info2 div{
+	width: 50%;
+	padding: 15px
+
+	box-sizing: border-box;
+
+}
+
+footer .info2 div a{
+	text-decoration: none;
+	color: #fff;
+}	

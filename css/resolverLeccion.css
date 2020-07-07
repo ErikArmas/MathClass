@@ -1,0 +1,79 @@
+.contenedor-lecciones{
+	width: 80%;
+	min-height: 100vh; 
+	padding: 20px;
+	box-sizing: border-box;
+	margin:auto;
+}
+.contenedor-lecciones .contenido{
+	padding-bottom: 5px;
+	border-bottom: .2em solid #070504;
+}
+
+.contenedor-lecciones .titulo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.contenedor-lecciones p{
+	font-size: 20px;	
+	text-align: justify;
+	text-align: center;
+}
+
+.contenedor-lecciones .ejercicio{
+	margin:5px;
+}
+
+.respuesta{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 150px;
+	margin: auto;
+}
+.respuesta .form{
+	margin:auto;
+}
+
+.respuesta label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;	
+}
+.respuesta #MostrarRespuesta{
+	width: 100%;
+}
+.respuesta #MostrarRespuesta label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;	
+}
+
+.respuesta input[type="text"],
+.respuesta #MostrarRespuesta input[type="text"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+.respuesta input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+.respuesta input[type="submit"]:hover{
+	cursor:pointer;
+}
